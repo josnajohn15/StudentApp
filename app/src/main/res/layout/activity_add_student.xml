@@ -1,0 +1,109 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="First Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the first name"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Last Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the last name"
+        android:id="@+id/lname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="College Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the college name"
+        android:id="@+id/cname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Date of Birth"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the dob"
+        android:inputType="date"
+        android:id="@+id/birth"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Course Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the course name"
+        android:id="@+id/course"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Mobile Number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the mobile number"
+        android:inputType="phone"
+        android:id="@+id/mob"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#00BCD4"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter the email address"
+        android:id="@+id/email"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:text="Address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the residential address"
+        android:id="@+id/address"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/addbtn"
+        android:background="#00BCD4"
+        android:drawableBottom="@drawable/baseline_add_24"
+        android:textColor="#EAEFF1"
+        android:text="ADD"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/back"
+        android:textColor="#EAEFF1"
+        android:background="#00BCD4"
+        android:drawableBottom="@drawable/baseline_keyboard_backspace_24"
+        android:text="Back to menu"/>
+</LinearLayout>
